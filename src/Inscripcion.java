@@ -16,7 +16,7 @@ public class Inscripcion {
         return alumno;
     }
 
-    public Inscripcion() {
+    public Inscripcion(Alumnos alumno1, Materia materia1) {
         this.alumno = alumno;
         this.materia = materia;
     }
